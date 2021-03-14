@@ -1,0 +1,193 @@
+load("@rules_cc//cc:defs.bzl", "cc_binary")
+
+cc_binary(
+    name = "big_seventh",
+    srcs = ["big_seventh.cpp"],
+    deps = ["//:multiprecision"],
+)
+
+# cc_binary(
+#     name = "complex128_examples",
+#     srcs = ["complex128_examples.cpp"],
+#     deps = ["//:multiprecision"],
+# )
+
+cc_binary(
+    name = "constexpr_float_arithmetic_examples",
+    srcs = ["constexpr_float_arithmetic_examples.cpp"],
+    deps = ["//:multiprecision"],
+)
+
+cc_binary(
+    name = "cpp_bin_float_import_export",
+    srcs = ["cpp_bin_float_import_export.cpp"],
+    deps = ["//:multiprecision"],
+)
+
+cc_binary(
+    name = "cpp_bin_float_snips",
+    srcs = ["cpp_bin_float_snips.cpp"],
+    deps = ["//:multiprecision"],
+)
+
+cc_binary(
+    name = "cpp_complex_examples",
+    srcs = ["cpp_complex_examples.cpp"],
+    deps = ["//:multiprecision"],
+)
+
+cc_binary(
+    name = "cpp_dec_float_snips",
+    srcs = ["cpp_dec_float_snips.cpp"],
+    deps = ["//:multiprecision"],
+)
+
+cc_binary(
+    name = "cpp_int_import_export",
+    srcs = ["cpp_int_import_export.cpp"],
+    deps = ["//:multiprecision"],
+)
+
+cc_binary(
+    name = "cpp_int_mul_timing",
+    srcs = ["cpp_int_mul_timing.cpp"],
+    deps = ["//:multiprecision"],
+)
+
+cc_binary(
+    name = "cpp_int_snips",
+    srcs = ["cpp_int_snips.cpp"],
+    deps = ["//:multiprecision"],
+)
+
+cc_binary(
+    name = "debug_adaptor_snips",
+    srcs = ["debug_adaptor_snips.cpp"],
+    deps = ["//:multiprecision"],
+)
+
+# cc_binary(
+#     name = "eigen_example",
+#     srcs = ["eigen_example.cpp"],
+#     deps = ["//:multiprecision"],
+# )
+
+# cc_binary(
+#     name = "exercise_threading_log_agm",
+#     srcs = ["exercise_threading_log_agm.cpp"],
+#     deps = ["//:multiprecision"],
+# )
+
+# cc_binary(
+#     name = "float128_snips",
+#     srcs = ["float128_snips.cpp"],
+#     deps = ["//:multiprecision"],
+# )
+
+cc_binary(
+    name = "floating_point_examples",
+    srcs = ["floating_point_examples.cpp"],
+    deps = ["//:multiprecision"],
+)
+
+cc_binary(
+    name = "gauss_laguerre_quadrature",
+    srcs = ["gauss_laguerre_quadrature.cpp"],
+    deps = ["//:multiprecision"],
+)
+
+# cc_binary(
+#     name = "gmp_snips",
+#     srcs = ["gmp_snips.cpp"],
+#     deps = ["//:multiprecision"],
+# )
+
+# cc_binary(
+#     name = "hashing_examples",
+#     srcs = ["hashing_examples.cpp"],
+#     deps = [
+#         "//:multiprecision",
+#         "@boost//random",
+#     ],
+# )
+
+cc_binary(
+    name = "hypergeometric_luke_algorithms",
+    srcs = ["hypergeometric_luke_algorithms.cpp"],
+    deps = ["//:multiprecision"],
+)
+
+cc_binary(
+    name = "integer_examples",
+    srcs = ["integer_examples.cpp"],
+    deps = ["//:multiprecision"],
+)
+
+# cc_binary(
+#     name = "logged_adaptor",
+#     srcs = ["logged_adaptor.cpp"],
+#     deps = ["//:multiprecision"],
+# )
+
+cc_binary(
+    name = "mixed_integer_arithmetic",
+    srcs = ["mixed_integer_arithmetic.cpp"],
+    deps = ["//:multiprecision"],
+)
+
+# cc_binary(
+#     name = "mpc_examples",
+#     srcs = ["mpc_examples.cpp"],
+#     deps = ["//:multiprecision"],
+# )
+
+# cc_binary(
+#     name = "mpfi_snips",
+#     srcs = ["mpfi_snips.cpp"],
+#     deps = ["//:multiprecision"],
+# )
+
+# cc_binary(
+#     name = "mpfr_precision",
+#     srcs = ["mpfr_precision.cpp"],
+#     deps = ["//:multiprecision"],
+# )
+
+# cc_binary(
+#     name = "mpfr_snips",
+#     srcs = ["mpfr_snips.cpp"],
+#     deps = ["//:multiprecision"],
+# )
+
+cc_binary(
+    name = "numeric_limits_snips",
+    srcs = ["numeric_limits_snips.cpp"],
+    deps = [
+        "//:multiprecision",
+        "@boost//test",
+    ],
+)
+
+# cc_binary(
+#     name = "random_snips",
+#     srcs = ["random_snips.cpp"],
+#     deps = [
+#         "//:multiprecision",
+#         "@boost//random",
+#     ],
+# )
+
+# cc_binary(
+#     name = "safe_prime",
+#     srcs = ["safe_prime.cpp"],
+#     deps = [
+#         "//:multiprecision",
+#         "@boost//random",
+#     ],
+# )
+
+# cc_binary(
+#     name = "tommath_snips",
+#     srcs = ["tommath_snips.cpp"],
+#     deps = ["//:multiprecision"],
+# )

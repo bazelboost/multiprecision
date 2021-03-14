@@ -1,0 +1,23 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "multiprecision",
+    visibility = ["//visibility:public"],
+    includes = ["include"],
+    hdrs = glob(["include/boost/**/*.hpp"]),
+    deps = [
+        "@boost//math",
+        "@boost//throw_exception",
+        "@boost//container_hash",
+        "@boost//atomic",
+        "@boost//integer",
+        "@boost//predef",
+        "@boost//utility",
+        "@boost//config",
+        "@boost//type_traits",
+        "@boost//mpl",
+        "@boost//smart_ptr",
+        "@boost//lexical_cast",
+        "@boost//rational",
+    ],
+)
