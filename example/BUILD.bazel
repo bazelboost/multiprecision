@@ -107,7 +107,7 @@ cc_binary(
 #     srcs = ["hashing_examples.cpp"],
 #     deps = [
 #         "//:multiprecision",
-#         "@boost//random",
+#         "@boost//libs/random",
 #     ],
 # )
 
@@ -164,7 +164,7 @@ cc_binary(
     srcs = ["numeric_limits_snips.cpp"],
     deps = [
         "//:multiprecision",
-        "@boost//test",
+        "@boost//libs/test",
     ],
 )
 
@@ -173,7 +173,7 @@ cc_binary(
 #     srcs = ["random_snips.cpp"],
 #     deps = [
 #         "//:multiprecision",
-#         "@boost//random",
+#         "@boost//libs/random",
 #     ],
 # )
 
@@ -182,7 +182,7 @@ cc_binary(
 #     srcs = ["safe_prime.cpp"],
 #     deps = [
 #         "//:multiprecision",
-#         "@boost//random",
+#         "@boost//libs/random",
 #     ],
 # )
 
